@@ -24,7 +24,7 @@ class Window(QWidget):
         self.trafficWidget.setUrl(QUrl("http://localhost/openapi_c.html"))
 
         self.floorWidget = QLabel()
-        self.floorWidget.setText('AICT A, 15F')
+        self.floorWidget.setText('15F')
         self.floorWidget.setStyleSheet("font-family: Arial; padding: 6px; "
                                       "font-style:normal; font-size: 20pt; font-weight: bold; color: #EEEEEE;")
 
